@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Firefox",
+		"icon": "art/firefox.svg",
+		"description": "Web browser",
+		"longDescription": "Firefox is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary the Mozilla Corporation.",
+		"stars": 5,
+		"category": "Internet",
+		"featured": true,
+		"backgroundColor": "#FFB558",
+		"backgroundColor2": "#FC9840"
+	},
+	{
+		"name": "Truc",
+		"icon": "art/home.svg",
+		"category": "Office",
+		"featured": true,
+		"stars": 4
+	},
+	{
+		"name": "Test",
+		"category": "Office™",
+		"stars": 2,
+		"featured": true
+	},
+	{
+		"name": "Foobar"
+	}
+]
