@@ -1,0 +1,17 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+	<qresource>
+		<file>AboutPage.qml</file>
+		<file>ApplicationPage.qml</file>
+		<file>ApplicationsListButton.qml</file>
+		<file>ApplicationsListPage.qml</file>
+		<file>CategoriesListButton.qml</file>
+		<file>IndexPage.qml</file>
+		<file>InstallButton.qml</file>
+		<file>main.qml</file>
+		<file>SideBar.qml</file>
+		<file>StarsLabel.qml</file>
+		<file>UncheckableButton.qml</file>
+		<file>data.json</file>
+	</qresource>
+</RCC>

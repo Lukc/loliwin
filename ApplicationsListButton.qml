@@ -55,6 +55,7 @@ Button {
 		y: 10
 		x: parent.width - width - 30
 		width: stars.width
+		command: model.installCommand
 	}
 
 	onClicked: {

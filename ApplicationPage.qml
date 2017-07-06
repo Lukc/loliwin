@@ -16,7 +16,8 @@ Page {
 			category: input.category,
 			icon: input.icon || "",
 			description: input.description,
-			longDescription: input.longDescription
+			longDescription: input.longDescription,
+			installCommand: input.installCommand
 		}
 	}
 
@@ -84,6 +85,7 @@ Page {
 		InstallButton {
 			x: parent.width - width - 30
 			y: header.height - height + 30
+			command: appData.installCommand || "false"
 		}
 	}
 }

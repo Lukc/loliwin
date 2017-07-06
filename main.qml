@@ -6,6 +6,7 @@ import QtQuick.Controls 2.2
 import QtQuick.Dialogs 1.2
 
 ApplicationWindow {
+	id: mainWindow
 	title: qsTr("LoliWin")
 	width: 640
 	height: 480
@@ -94,8 +95,6 @@ ApplicationWindow {
 			xhr.onreadystatechange = function() {
 				if (xhr.readyState == XMLHttpRequest.DONE) {
 					var data = JSON.parse(xhr.responseText);
-
-					console.log(data)
 
 					for (var index = 0; index < data.length; index++) {
 						var element = data[index];

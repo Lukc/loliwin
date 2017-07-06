@@ -30,7 +30,6 @@ Page {
 				}
 
 				onClicked: {
-					console.log(model.name)
 					applicationPage.setApplication(model)
 
 					applicationsListPage.category = model.category
